@@ -11,9 +11,11 @@ export default {
           one: "#FAD074",
           two: "#E2EEEC",
         },
+        text: {
+          main: "#111111",
+        },
       },
     },
   },
   plugins: [],
 };
-

@@ -4,7 +4,6 @@ export interface BoardsItem {
   id: number;
   title: string;
   description: string;
-  images: string[];
   attachment: string[];
   members: {
     id: string;

@@ -14,7 +14,7 @@ const Header = () => {
           <BellIcon width="28" />
           <div className="w-1.5 h-1.5 rounded-full bg-red-500 absolute translate-x-2 -translate-y-2 border border-background box-content"></div>
         </div>
-        <div className="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center p-0.5 border-2 border-divider cursor-pointer">
+        <div className="w-9 h-9 rounded-full overflow-hidden flex items-center justify-center p-0.5 border-2 border-divider cursor-pointer">
           <img src={defaultAvatar} alt="avatar" className="w-full h-full rounded-full object-cover" />
         </div>
       </div>

@@ -6,17 +6,59 @@ const list: BoardsItem[] = [
     id: 1,
     title: "Login page",
     description: "Design login page",
-    images: [],
     attachment: [],
-    members: [],
+    members: [
+      {
+        avatar: "",
+        email: "test",
+        firstName: "test",
+        lastName: "test",
+        id: "1",
+      },
+      {
+        avatar: "",
+        email: "test",
+        firstName: "test",
+        lastName: "test",
+        id: "2",
+      },
+    ],
   },
   {
     id: 2,
     title: "Register page",
     description: "Design register page",
-    images: [],
     attachment: [],
-    members: [],
+    members: [
+      {
+        avatar: "",
+        email: "test",
+        firstName: "test",
+        lastName: "test",
+        id: "1",
+      },
+      {
+        avatar: "",
+        email: "test",
+        firstName: "test",
+        lastName: "test",
+        id: "2",
+      },
+      {
+        avatar: "",
+        email: "test",
+        firstName: "test",
+        lastName: "test",
+        id: "3",
+      },
+      {
+        avatar: "",
+        email: "test",
+        firstName: "test",
+        lastName: "test",
+        id: "4",
+      },
+    ],
   },
 ];
 const BoardsList = () => {

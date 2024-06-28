@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BoardsItem } from "./types";
 import PaperClipIcon from "../../assets/icons/PaperClipIcon";
+import AttachmentPreview from "./AttachmentPreview";
 
 type Props = {
   info: BoardsItem;
@@ -12,6 +13,12 @@ const BoardItem = ({ info }: Props) => {
     <div className="w-full rounded-xl border-2 border-divider p-4 mb-8">
       <div className="text-xl font-bold text-text-main">{info.title}</div>
       <div className="text-sm text-text-main mt-1">{info.description}</div>
+      {info.attachment.length > 0 && (
+        <AttachmentPreview
+          type={info.attachment[0].type}
+          src={info.attachment[0].src}
+        />
+      )}
       <div className="w-full flex items-center justify-between mt-5">
         <div className="flex items-center gap-x-1">
           {info.members.map((item, index) => (

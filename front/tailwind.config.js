@@ -3,21 +3,23 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors : {
-        divider : {
-          main:"#cccccc"
+      colors: {
+        divider: {
+          main: "#cccccc",
         },
-        text : {
-          main:"#111111",
-          800:"#111111cc"
+        text: {
+          main: "#111111",
+          800: "#111111cc",
         },
-        surface : {
-          one : "#eeeeee",
-          two : "#dddddd"
-        }
-      }
+        bg: {
+          main: "#ffffff",
+        },
+        surface: {
+          one: "#eeeeee",
+          two: "#dddddd",
+        },
+      },
     },
   },
   plugins: [],
 };
-

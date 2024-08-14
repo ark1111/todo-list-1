@@ -10,6 +10,7 @@ export default {
         text: {
           main: "#111111",
           800: "#111111cc",
+          600:"#11111199"
         },
         bg: {
           main: "#ffffff",
@@ -17,6 +18,7 @@ export default {
         surface: {
           one: "#eeeeee",
           two: "#dddddd",
+          three:"#eeeeee66"
         },
       },
     },

@@ -1,0 +1,33 @@
+.task-drawer-inner {
+  animation-name: appearance_animation;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+.task-drawer-back {
+  animation-name: appearance_back_surface_animation;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appearance_animation {
+  from {
+    transform: translateX(110%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes appearance_back_surface_animation {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}

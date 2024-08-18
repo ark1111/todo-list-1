@@ -1,3 +1,4 @@
+import PriorityBadge from "../../../components/badge/PriorityBadge";
 import "./TaskDrawer.style.css";
 type Props = {
   closeDrawer: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
@@ -19,6 +20,30 @@ const TaskDrawer = ({ closeDrawer }: Props) => {
             </div>
             <div className="felx items-center gap-x-2 cursor-pointer">
               <div className="text-base font-medium text-text-main">Expand</div>
+            </div>
+          </div>
+        </div>
+        {/* --body--- */}
+        <div className="w-full py-6 px-8">
+          <div className="w-full text-4xl font-medium text-text-main">
+            code - todo list - front
+          </div>
+          <div className="w-full flex items-center gap-x-3 mt-5">
+            <PriorityBadge type={"High"} />
+            <div className="px-3 py-1 rounded-full text-sm border border-divider-main text-text-main">
+              Jul 10 - 14
+            </div>
+          </div>
+          <div className="w-full px-3 rounded-lg py-2 flex items-center justify-between mt-8 bg-gradient-to-r from-[#e4c3da] to-[#d3bae8]">
+            <div className="flex items-center gap-x-2">
+              <div className="text-sm text-text-main font-medium">
+                Time Spent on this project
+              </div>
+            </div>
+            <div className="flex items-center gap-x-2">
+              <div className="text-xl text-text-main font-semibold">
+                99:30:00
+              </div>
             </div>
           </div>
         </div>

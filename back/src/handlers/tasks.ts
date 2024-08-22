@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { Request, Response } from "express-serve-static-core";
 import { CreateTaskDto } from "../dtos/task/CreateTask.dto";
 import { CreateTaskQueryParamsType } from "../types/query-params";
 import { TaskType } from "../types/response";
